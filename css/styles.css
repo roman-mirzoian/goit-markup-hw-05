@@ -593,6 +593,11 @@ img {
   fill: var(--color-white);
 }
 
+.modal button:hover svg,
+.modal button:focus svg {
+  fill: var(--color-white);
+}
+
 .modal__title {
   font-weight: 500;
   font-size: 16px;
