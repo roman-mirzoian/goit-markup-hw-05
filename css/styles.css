@@ -715,6 +715,12 @@ img {
   fill: var(--color-cloud);
 }
 
+.privacy-checkbox:checked + .privacy-label > .privacy-custom-checkbox {
+  background-color: var(--color-ocean);
+  border: none;
+  fill: var(--color-cloud);
+}
+
 .privacy-link {
   color: var(--color-iris);
 }
