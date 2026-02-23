@@ -69,7 +69,7 @@ img {
 }
 
 .header {
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--color-cornflower);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -115,7 +115,7 @@ img {
 
 .current {
   position: relative;
-  color: #404bbf;
+  color: var(--color-ocean);
 }
 
 .current::after {
@@ -125,7 +125,7 @@ img {
   left: 0;
   bottom: -1px;
   height: 4px;
-  background-color: #404bbf;
+  background-color: var(--color-ocean);
   border-radius: 2px;
 }
 
@@ -219,9 +219,9 @@ img {
   align-items: center;
   justify-content: center;
   height: 112px;
-  background-color: #f4f4fd;
+  background-color: var(--color-cloud);
   border-radius: 4px;
-  border: 1px solid #8e8f99;
+  border: 1px solid var(--color-light-slate);
   margin-bottom: 8px;
 }
 
@@ -308,7 +308,7 @@ img {
 
 .social-link:hover,
 .social-link:focus {
-  background-color: #404bbf;
+  background-color: var(--color-ocean);
 }
 
 .social-icon {
@@ -354,7 +354,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--color-cloud);
   padding: 40px 32px;
-  background-color: #4d5ae5;
+  background-color: var(--color-iris);
   height: 100%;
   width: 100%;
   transform: translateY(100%);
@@ -363,7 +363,7 @@ img {
 
 .portfolio-card-content {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--color-cornflower);
   border-top: none;
 }
 
@@ -464,7 +464,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 .footer-subscribe-form {
@@ -475,7 +475,7 @@ img {
 .footer-subscribe-input {
   width: 264px;
   height: 40px;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--color-white);
   border-radius: 4px;
   background-color: transparent;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -483,11 +483,11 @@ img {
   line-height: 2;
   letter-spacing: 0.04em;
   padding-left: 16px;
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 .footer-subscribe-input::placeholder {
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 .footer-subscribe-btn {
@@ -495,7 +495,7 @@ img {
   height: 40px;
   border: none;
   border-radius: 4px;
-  background-color: #4d5ae5;
+  background-color: var(--color-iris);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -504,17 +504,17 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--color-white);
   cursor: pointer;
 }
 
 .footer-subscribe-btn:hover {
-  background-color: #404BBF;
+  background-color: var(--color-ocean);
   border: none;
 }
 
 .footer-subscribe-btn:focus {
-  background-color: #404BBF;
+  background-color: var(--color-ocean);
   border: none;
 }
 
@@ -564,7 +564,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #e7e9fc;
+  background-color: var(--color-cornflower);
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   cursor: pointer;
@@ -573,12 +573,12 @@ img {
 }
 
 .modal-close-btn:hover {
-  background-color: #404bbf;
+  background-color: var(--color-ocean);
   border: none;
 }
 
 .modal-close-btn:focus {
-  background-color: #404bbf;
+  background-color: var(--color-ocean);
   border: none;
 }
 
@@ -587,11 +587,11 @@ img {
 }
 
 .modal-close-btn:hover .modal-close-icon {
-  fill: #ffffff;
+  fill: var(--color-white);
 }
 
 .modal-close-btn:focus .modal-close-icon {
-  fill: #ffffff;
+  fill: var(--color-white);
 }
 
 .modal-text {
@@ -633,7 +633,7 @@ img {
 }
 
 .modal-input:focus {
-  border-color: #4d5ae5;
+  border-color: var(--color-iris);
 }
 
 .modal-input-icon {
@@ -645,11 +645,11 @@ img {
 }
 
 .modal-input:focus + .modal-input-icon {
-  fill: #4d5ae5;
+  fill: var(--color-iris);
 }
 
 .modal-input-wrap:focus-within .modal-input-icon {
-  fill: #4d5ae5;
+  fill: var(--color-iris);
 }
 
 .modal-comment-wrap {
@@ -673,7 +673,7 @@ img {
 }
 
 .modal-comment:focus {
-  border-color: #4d5ae5;
+  border-color: var(--color-iris);
 }
 
 .modal-comment::placeholder {
@@ -726,23 +726,23 @@ img {
   margin: 0 auto;
   border: none;
   border-radius: 4px;
-  background-color: #4d5ae5;
+  background-color: var(--color-iris);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--color-white);
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-submit-btn:hover {
-  background-color: #404bbf;
+  background-color: var(--color-ocean);
   border: none;
 }
 
 .modal-submit-btn:focus {
-  background-color: #404bbf;
+  background-color: var(--color-ocean);
   border: none;
 }
