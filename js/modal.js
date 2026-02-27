@@ -11,7 +11,7 @@ refs.backdrop.addEventListener('click', handleBackdropClick);
 window.addEventListener('keydown', handleKeyDown);
 
 function toggleModal() {
-  refs.modal.classList.toggle('is-hidden');
+  refs.modal.classList.toggle('is-open');
 }
 
 function handleBackdropClick(event) {
@@ -21,7 +21,7 @@ function handleBackdropClick(event) {
 }
 
 function handleKeyDown(event) {
-  if (event.code === 'Escape' && !refs.modal.classList.contains('is-hidden')) {
+  if (event.code === 'Escape' && refs.modal.classList.contains('is-open')) {
     toggleModal();
   }
 }
