@@ -695,6 +695,12 @@ img {
   fill: var(--color-cloud);
 }
 
+.modal-checkbox-input:checked + .modal-checkbox-label span {
+  background-color: var(--color-ocean);
+  border: none;
+  fill: var(--color-cloud);
+}
+
 .modal-checkbox-label {
   color: var(--color-light-slate);
   font-size: 12px;
